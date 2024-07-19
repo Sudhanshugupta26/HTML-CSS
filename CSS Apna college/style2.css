@@ -1,0 +1,81 @@
+/* Box model in CSS */
+
+/* Box we generally seen by inspect panel for elements. */
+
+/* height & width */
+div{
+    height: 40px;
+    /* sets height of the box */
+    width: 100px;
+    /* sets width of the box */
+    background-color: darkorange;
+}
+
+/* border */
+h1{
+    width: 150px;
+    height: 40px;
+    border-width: 5px;
+    /* set width of border */
+    border-color: aqua;
+    /* give color to border */
+    border-style: groove;
+    /* give style to border */
+    text-align: center;
+    /* text aligns according to the box type */
+
+    /* there is shorthand method to define above */
+    /* border: width color style */
+
+    border-radius: 10px;
+    /* define curve of border at vertices  */
+}
+/* to create circles using borders */
+#circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: chartreuse;
+}
+
+/* Padding: space between border and content */
+
+#circle{
+    padding-left: 30px;
+    padding-top: 30px;
+    /* similar for right and bottom too. */
+
+    /* padding shorthand */
+    /* padding: 30px (for all 4 sides) */
+    /* padding: 1px 2px 3px 4px (top-right-bottom-left) */
+}
+
+/* Margin: area between 2 individual boxes */
+
+div{
+    margin-top: 50px;
+    /* similar for other sides */
+    /* shorthand same as padding */
+}
+
+/* practice set 3 */
+/* Q2 */
+
+#amazon{
+    background-color: black;
+    color: aliceblue;
+    padding: 5px;
+}
+#logo{
+    color: gold;
+    margin-left: 20px;
+}
+button{
+    background-color: gold;
+    color: black ;
+}
+a{
+    margin-right: 200px;
+    text-decoration: none;
+    color: aliceblue;
+}

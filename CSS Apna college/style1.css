@@ -1,0 +1,90 @@
+/* text properties */
+
+
+/* text-align */
+
+p{
+    /* to align text */
+    text-align:right 
+    /* also have values: left(default),center,start(left),end(right) */
+}
+
+/* text decoration */
+
+h1{
+    text-decoration: overline;
+    /* also have other values like: line-through,overline,wavy,etc */
+}
+/* generally used in removing underline of links of link tags. */
+a{
+    text-decoration: none;
+}
+/* also set color */
+h3{
+    text-decoration: blue wavy underline;
+}
+
+/* font-weight */
+/* to define boldness of text */
+/* range: 100-900 */
+/* values: normal/bold/bolder/lighter */
+#h1{
+    font-weight: normal;
+}
+#h2{
+    font-weight: lighter;
+}
+#h3{
+    font-weight: bolder;
+}
+#h4{
+    font-weight: 550;
+}
+
+/* font-family */
+/* to change font */
+#h1{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* font-size */
+
+#small{
+    font-size: 8px;
+    /* for setting size */
+}
+
+/* line-height */
+
+#line{
+    line-height: 3px;
+    /* this is the space between 2 lines. */
+}
+
+/* text-transform */
+
+#trte{
+    text-transform: uppercase;
+    /* to transform text into: capitalize,uppercase,lowercase,etc */
+}
+
+/* practice set 2 */
+
+#set1{
+    text-align: center;
+    text-transform: capitalize;
+}
+
+#set2{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#outer{
+    font-size: 25px;
+    /* ignored */
+}
+
+#inner{
+    font-size: 10px;
+    /* inner div high preference */
+}
